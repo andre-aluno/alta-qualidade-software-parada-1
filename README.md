@@ -10,20 +10,9 @@ O **Conversor de Moedas CLI** é uma aplicação desenvolvida em Python que perm
 
 ## 2. Diagrama de Fluxo
 
-```mermaid
-flowchart TD
-    A[Início: chamada CLI] --> B[Ler argumentos (--from, --to, --amount)]
-    B --> C[Validar parâmetros]
-    C -->|inválido| D[Exibir erro e sair (exit 1)]
-    C -->|válido| E[Ler taxas de 'taxas.json']
-    E -->|falha| F[Exibir erro e sair (exit 2)]
-    E -->|sucesso| G[Calcular conversão]
-    G --> H[Arredondar resultado (2 casas)]
-    H --> I[Exibir valor convertido]
-    I --> J[Encerrar com exit(0)]
-    D --> K[Fim com erro]
-    F --> K
-```
+![Diagrama de Fluxo](Diagrama-converter.drawio.png)
+
+- O diagrama ilustra o fluxo de execução da aplicação, desde a leitura dos parâmetros até a conversão e exibição do resultado.
 
 ## 3. Estrutura do Repositório
 
