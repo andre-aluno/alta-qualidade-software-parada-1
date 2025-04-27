@@ -106,6 +106,10 @@ docker run -it --rm conversor-cli
 python converter.py --from USD --to BRL --amount 10.50
 ```
 
+### 9. Trello
+
+Acompanhe o progresso do projeto no Trello: [Link para o Trello](https://trello.com/invite/b/680e3cc627a97c7cb5e943b8/ATTI54411a6764711cf7ebea3c2c5a0ed31087AD9EC0/agile-docs-code-sprint)
+
 ## 9. Considerações Finais
 
 Essa aplicação foi desenvolvida para a disciplina **Alta Qualidade de Software** e tem como objetivo demonstrar o uso de testes automatizados.
